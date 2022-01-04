@@ -26,7 +26,7 @@ foliage() {
             
         elif [ "$i" -lt $((l - 1)) ] && [ "$i" -gt $((l/2)) ];
         then
-              if [ $(( ( RANDOM % 10 )  + 1 )) -lt 2 ];
+            if [ $(( ( RANDOM % 10 )  + 1 )) -lt 2 ];
             then
                 echo -n "o"
             else
